@@ -1,0 +1,47 @@
+body {
+    margin:0;
+}
+
+img {
+    width:100%;
+}
+h2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+select {
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+#input {
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    margin-left: 10px;
+}
+th, td {
+    text-align: left;
+    padding: 5px;
+    border-left: 1px solid #ddd;
+}
+th {
+    cursor: pointer;
+    background-color: #eee;
+}
+tr {
+    border-bottom: 1px solid #ddd;
+}
