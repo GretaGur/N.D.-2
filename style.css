@@ -45,3 +45,17 @@ th {
 tr {
     border-bottom: 1px solid #ddd;
 }
+.pages {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.pages div {
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+}
+.pagesBtn {
+    cursor: pointer;
+    background-color: #eee;
+}
