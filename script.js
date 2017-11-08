@@ -208,6 +208,7 @@ if ((typeof data !== 'undefined') && data && (data.length > 0)) {
     document.getElementById("btnNext").onclick = () => {
         table.nextPage();
     };
+    
 } else {
     alert("No data!");
 }
