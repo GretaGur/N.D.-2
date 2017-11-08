@@ -153,7 +153,6 @@ class Table {
         }
     }
     whichData() {
-        
         if (this.lastUsedFilter == "sortColumns") {
             return this.sortedData;
         } else if (this.lastUsedFilter == "dropdownFilter") {
@@ -189,7 +188,6 @@ class Table {
     numPages(data) {
         return Math.ceil(data.length / this.recordsPerPage);
     }
-
 }
 
 if ((typeof data !== 'undefined') && data && (data.length > 0)) {
